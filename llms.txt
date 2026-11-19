@@ -1,0 +1,26 @@
+# Sendit Go
+
+> Sendit Go (SenditGo) is intelligent transport management for local and last-mile
+> fleets, launching 2027. SenditGo’s AI, SAM, weighs thousands of combinations across
+> every stop, window and driver, then hands back a dispatch-ready plan in seconds.
+> Early access is open now.
+
+Set the outcome. Fleet-wide intelligence handles the rest. Every driver, route and
+delivery stays live in one clear view.
+
+## Product
+- [Home / overview](https://www.senditgo.com/): What Sendit Go is — intelligent transport management, launching 2027, with routing, proof of delivery, total fleet oversight, an operations deck and live tracking in one connected system.
+- [Get early access](https://www.senditgo.com/contact): Contact Sendit Go about early access.
+- [Driver app](https://www.senditgo.com/install): Install the Sendit Go driver app for iOS or Android.
+
+## Company & policies
+- [Company](https://www.senditgo.com/company): About Sendit Go.
+- [Contact](https://www.senditgo.com/contact): Contact Sendit Go — book a product demo, ask about plans and pricing, integrations, or finding the right solution.
+- [Data safety](https://www.senditgo.com/data-safety): How Sendit Go handles operational and location data.
+- [Privacy policy](https://www.senditgo.com/privacy): Privacy practices.
+- [Account deletion](https://www.senditgo.com/account-deletion): How to delete an account and associated data.
+
+## Notes
+- Status: launching 2027; early access is open now.
+- Core capabilities: automated delivery planning and route optimisation, live GPS fleet tracking, dynamic driver rosters / run orders, paperless electronic proof of delivery (ePOD), real-time order status updates, customer-facing live tracking, driver mobile app.
+- Audience: fleet operators, last-mile and local delivery companies (English-first; APAC/Taiwan).

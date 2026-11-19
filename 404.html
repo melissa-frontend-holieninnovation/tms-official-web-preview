@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="robots" content="noindex,nofollow" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/tms-official-web-preview/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" sizes="any" href="/tms-official-web-preview/logo.svg?v=79590782" />
+    <link rel="apple-touch-icon" href="/tms-official-web-preview/logo.jpg" />
+    <link rel="manifest" href="/tms-official-web-preview/site.webmanifest" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#007FFF" />
+    <!-- Theme boot: stamp data-theme before first paint so prerendered HTML
+         (which bakes whatever headless Chrome resolved) never flashes the
+         wrong theme. Mirrors ThemeContext's key + legacy migration order. -->
+    <script>
+      (function () {
+        try {
+          var theme =
+            localStorage.getItem('theme') ||
+            localStorage.getItem('senditgo-v29-theme');
+          if (theme !== 'light' && theme !== 'dark') {
+            theme = window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light';
+          }
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {
+          /* storage unavailable — ThemeContext stamps it on hydration */
+        }
+      })();
+    </script>
+    <!-- Fallback title; per route, react-helmet-async (src/App.tsx RouteSeo)
+         sets a unique title/description/canonical + og:title/description/url +
+         twitter:title/description, baked per route by scripts/prerender.mjs.
+         Only GLOBAL (non-per-route) tags live here to avoid duplicates. -->
+    <title>Sendit Go — Transportation Management System</title>
+
+    <!-- Open Graph (global parts) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sendit Go" />
+    <meta property="og:locale" content="en_US" />
+    <meta
+      property="og:image"
+      content="https://www.senditgo.com/og/og-default.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Sendit Go — intelligent transport management, launching 2027"
+    />
+
+    <!-- X / Twitter (global parts) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:image"
+      content="https://www.senditgo.com/og/og-default.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Sendit Go — intelligent transport management, launching 2027"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Magistral Bold Italic is every display heading. Preloaded so the first
+         paint does not set headings in the Inter fallback (font-display: swap)
+         and then reflow them. -->
+    <link
+      rel="preload"
+      href="/tms-official-web-preview/fonts/magistral-bold-italic.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <!-- demo-v28 hybrid type system: Manrope (body) + Roboto/Roboto Mono (guide's
+         system face, fallbacks + tick labels). Magistral itself is self-hosted
+         in /fonts via @font-face inside the page. -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Structured data (schema.org). Site-wide; for the home this ships in the
+         served index.html. Per-route JSON-LD is injected at build time by the
+         prerender step (scripts/prerender.mjs). -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.senditgo.com/#organization",
+            "name": "Sendit Go",
+            "alternateName": "SenditGo",
+            "url": "https://www.senditgo.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://www.senditgo.com/logo.jpg",
+              "width": 192,
+              "height": 192
+            },
+            "description": "Intelligent transport management for local and last-mile fleets, launching 2027. SenditGo’s AI, SAM, weighs thousands of combinations across every stop, window and driver, then hands back a dispatch-ready plan in seconds."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.senditgo.com/#website",
+            "url": "https://www.senditgo.com/",
+            "name": "Sendit Go",
+            "inLanguage": "en",
+            "publisher": { "@id": "https://www.senditgo.com/#organization" }
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://www.senditgo.com/#app",
+            "name": "Sendit Go",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web, iOS, Android",
+            "url": "https://www.senditgo.com/",
+            "description": "SenditGo’s AI, SAM, weighs thousands of combinations across every stop, window and driver, then hands back a dispatch-ready plan in seconds—with the routes, allocations and knock-on effects already considered. Contact SenditGo about early access.",
+            "featureList": [
+              "Automated delivery planning and route optimisation",
+              "Live GPS fleet tracking",
+              "Dynamic driver rosters and run orders",
+              "Paperless electronic proof of delivery (ePOD)",
+              "Delivery status lookup",
+              "Driver mobile app"
+            ],
+            "image": "https://www.senditgo.com/og/og-default.png",
+            "publisher": { "@id": "https://www.senditgo.com/#organization" }
+          }
+        ]
+      }
+    </script>
+    <script type="module" crossorigin src="/tms-official-web-preview/assets/index-Dl_P7aeA.js"></script>
+    <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/index-BU_go55w.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

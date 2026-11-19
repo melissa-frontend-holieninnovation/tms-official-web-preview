@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- Sendit Go default social card. Brand palette: navy #071120, blue #007FFF,
+       mint #00FFE1, orange #EA8118, charcoal #3E3A39. Flat fills, no gradients. -->
+  <rect width="1200" height="630" fill="#071120"/>
+  <!-- accent bars -->
+  <rect x="0" y="0" width="1200" height="8" fill="#007FFF"/>
+  <rect x="0" y="622" width="1200" height="8" fill="#EA8118"/>
+  <!-- live dot + eyebrow -->
+  <circle cx="92" cy="120" r="9" fill="#EA8118"/>
+  <text x="116" y="128" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="2" fill="#93A3BC">INTELLIGENT TRANSPORT MANAGEMENT. LAUNCHING 2027.</text>
+  <!-- wordmark -->
+  <text x="88" y="300" font-family="Helvetica, Arial, sans-serif" font-size="132" font-weight="800" fill="#FFFFFF">Sendit Go<tspan fill="#007FFF">.</tspan></text>
+  <!-- tagline -->
+  <text x="92" y="390" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="600" fill="#C3D2E6">Set the outcome. Fleet-wide intelligence handles the rest.</text>
+  <!-- feature row -->
+  <text x="92" y="475" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="500" fill="#7F8DA3">Routing Engine  &#8226;  Proof of Delivery  &#8226;  Total fleet oversight  &#8226;  Live Tracking</text>
+  <!-- url -->
+  <text x="92" y="556" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#00FFE1">www.senditgo.com</text>
+</svg>
