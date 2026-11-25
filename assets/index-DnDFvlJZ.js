@@ -1,0 +1,1 @@
+import{c as o,j as e}from"./publicPath-04zwLAXF.js";import{P as r}from"./PodLoops-BTBF1O6i.js";import"./podReviewOrder-DMC6yfcM.js";o.createRoot(document.getElementById("pod-framing")).render(e.jsx(r,{review:!0}));
