@@ -19,28 +19,26 @@ h1{font:italic 700 clamp(36px,6vw,66px)/1.05 Magistral,system-ui;margin:32px 0 1
 @page{size:A4;margin:15mm}
 @media print{:root{color-scheme:light;--page:#fff;--ink:#16243a;--muted:#4c5869;--line:#ced5df;--blue:#003df2;--soft:#f3f5f8}body{font-size:12pt}main{max-width:none;padding:0}.phones,.optional{grid-template-columns:1fr 1fr}.phones{gap:12px}.phones article{padding:14px}h1{font-size:34pt}.lead{font-size:14pt}.print-link{display:inline}article{break-inside:avoid}}
 .framing{margin:24px 0 16px;background:var(--soft);padding:20px;border-radius:12px}
-.framing figcaption{margin:0 auto 14px;text-align:center;font-size:13px;color:var(--muted)}
-.frames{display:grid;grid-template-columns:minmax(0,132px) 24px minmax(0,132px);justify-content:center;gap:8px;align-items:center}
-.frame button,.framing button{font:inherit;font-size:13px;min-height:44px;border:1px solid var(--line);color:var(--blue);background:var(--page);border-radius:6px;cursor:pointer}.framing button:disabled{color:var(--muted);cursor:default}.framing footer{text-align:center}.frames>i{height:1px;position:relative;background:var(--muted)}.frames>i::after{content:"";position:absolute;right:0;top:-3px;width:6px;height:6px;border:solid var(--muted);border-width:1px 1px 0 0;transform:rotate(45deg)}
-.frame{aspect-ratio:9/15;border:2px solid var(--ink);border-radius:16px;padding:12px;background:var(--page);display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:7px}
-.frame b{font:italic 700 clamp(17px,3vw,23px)/1 Magistral,system-ui;color:var(--ink);margin-bottom:6px}
-.framing [hidden]{display:none}.frame span{display:block;padding-top:7px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;line-height:1.25}
-.frame span:last-child{color:var(--blue);font-weight:700}
-@media print{.framing{padding:6px;margin:8px 0}.frames{grid-template-columns:74px 16px 74px}.frame{padding:6px;gap:3px;border-radius:7px}.frame b{font-size:13px;margin:0}.frame span{font-size:8px;padding-top:2px}.framing figcaption{font-size:9px;margin-bottom:4px}}
+.framing figcaption{margin:0 0 18px;color:var(--muted)}
+@media print{.framing{display:none}}
 </style>
+  <script type="module" crossorigin src="/tms-official-web-preview/assets/index-CrmRvU6j.js"></script>
+  <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/publicPath-DfI3q9xe.js">
+  <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/PodHandoff-DSRBmYvP.js">
+  <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/PodHandoff-B2WoRZkJ.css">
+  <meta name="robots" content="noindex,nofollow">
 </head>
 <body><main>
 <header><b>SenditGo</b><span>Official website · Recording brief</span></header>
 <h1>One order, two phone screens.</h1>
-<p class="lead">Record demo order <strong>SG-R09-1042</strong> from both sides. The driver submits proof of delivery (POD). The customer then opens <strong>Order details</strong> in the customer app and sees that same order marked <strong>Delivered</strong>.</p>
+<p class="lead">Use the same test order on both phones. The prototype shows <strong>SG-R09-1042</strong> at Riverside Pharmacy. Confirm the test order is available in both apps before recording. The driver submits proof of delivery (POD). The customer then opens <strong>Order details</strong> in the customer app and sees that same order marked <strong>Delivered</strong>.</p>
 <section class="phones" aria-label="Requested phone recordings">
 <article><p class="step">Recording 1 · Driver phone</p><h2>Submit proof of delivery</h2><p>Open the demo stop in the driver app. Show the order reference, capture the proof requested by the app, and tap submit. For the staged POD photo, group the three demo parcels beside a plain doorway. Shoot upright from one step back so all three parcels and the threshold fit in frame. Keep faces, house numbers and shipping labels out of shot. Hold on <strong>Delivery recorded.</strong> This is the Driver V2 confirmation that the proof was received. If the proof is still uploading or queued offline, wait for acceptance before recording the customer phone.</p></article>
-<article><p class="step">Recording 2 · Customer phone</p><h2>See the same order delivered</h2><p>Once the driver’s submission is accepted, open <strong>Order details</strong> for the same order in the customer app. Keep the matching order reference and the <strong>Delivered</strong> status on screen long enough to read.</p></article>
+<article><p class="step">Recording 2 · Customer phone</p><h2>See the same order delivered</h2><p>Once the driver’s submission is accepted, go to <strong>My Orders</strong> in the customer app and open the same order’s <strong>Order Detail</strong> screen. Keep the matching order reference and the <strong>Delivered</strong> status on screen long enough to read.</p></article>
 </section>
 <figure class="framing" aria-label="Two-phone framing guide">
-<figcaption>Framing guide · both recordings still needed</figcaption>
-<div class="frames"><div class="frame"><b>Driver app</b><span>SG-R09-1042</span><span id="driver-result">Delivery recorded.</span><button hidden id="submit-proof" type="button">Submit POD</button></div><i aria-hidden="true"></i><div class="frame"><b>Customer app</b><span id="customer-screen">Order details</span><span>SG-R09-1042</span><span id="customer-result">Delivered</span><button hidden id="open-order" type="button">Open order details</button></div></div>
-<footer hidden id="story-controls"><p role="status"></p><button hidden id="replay" type="button">Replay handoff</button></footer>
+<figcaption>Framing guide · Driver V2 prototype and customer storyboard. Both app recordings are still needed.</figcaption>
+<div id="pod-framing"></div>
 </figure>
 <p class="cue"><strong>For the edit</strong> &nbsp;Keep both recordings in portrait. Cut from the driver’s submission confirmation to Order details in the customer app, with Delivered visible. Use the same demo order reference throughout.</p>
 <div class="refs"><a href="https://www.figma.com/proto/vmAA5y9vao7Y9S3L5ZhMcT/Migration?node-id=490-18253&amp;scaling=scale-down">Driver V2 · Capture proof</a><a href="https://www.figma.com/proto/vmAA5y9vao7Y9S3L5ZhMcT/Migration?node-id=490-19236&amp;scaling=scale-down">Driver V2 · Delivery recorded</a><a href="https://melissa-frontend-holieninnovation.github.io/tms-official-web-preview/videos/phone-appvideo.mp4">Watch the website’s current driver-app clip</a></div>
@@ -50,5 +48,5 @@ h1{font:italic 700 clamp(36px,6vw,66px)/1.05 Magistral,system-ui;margin:32px 0 1
 <article><img src="../images/broll/broll-phone-highway-poster.jpg" alt="Current aerial footage of a busy motorway"><div><h3>Travel time</h3><p>For a replacement, film the same white van approaching the second stop and pulling up at the kerb from a fixed roadside position.</p><a href="https://melissa-frontend-holieninnovation.github.io/tms-official-web-preview/videos/broll/broll-phone-highway.mp4">Watch current motorway footage</a></div></article>
 </div></section>
 <footer><a href="../design-review/">Back to the website review</a> &nbsp;·&nbsp; <a href="../design-review/#impact">Compare the Impact options</a><span class="print-link"> &nbsp;·&nbsp; <a href="https://melissa-frontend-holieninnovation.github.io/tms-official-web-preview/recording-review/">Open this recording brief online</a></span></footer>
-</main><script defer src="./handoff.js"></script></body>
+</main></body>
 </html>
