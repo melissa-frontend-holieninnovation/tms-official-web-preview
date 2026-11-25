@@ -1,1 +1,0 @@
-import{p as c}from"./publicPath-04zwLAXF.js";const a="SG-R09-1042",p="Delivery recorded.",r={image:"/images/pod-review/captured-pod.jpg"},e={salesOrderId:a,acceptanceCue:p,proof:r},s=e.salesOrderId,d=e.acceptanceCue,n=e.proof.image;function i(o){return c(o)+"?review=pod-console-2"}export{s as a,d as b,n as c,i as p};
