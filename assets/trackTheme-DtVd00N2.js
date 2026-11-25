@@ -195,6 +195,7 @@ Please change the parent <Route path="${x}"> to <Route path="${x==="/"?"*":`${x}
   /* A small phone with its browser bars showing: give the phone every pixel. */
   @media (max-width: 600px) and (max-height: 640px) {
     --stack-gap: 16px;
+    padding-top: calc(var(--nav-h, 73px) + 16px);
     padding-bottom: 36px;
   }
 `,R0=J.div`
