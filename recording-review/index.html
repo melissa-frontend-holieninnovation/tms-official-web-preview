@@ -15,20 +15,24 @@
     header {margin-bottom:clamp(20px,3vw,36px)}
     h1 {font:italic 700 clamp(32px,5vw,60px)/1.08 Magistral,system-ui;margin:0 0 10px;letter-spacing:-.025em}
     header p {margin:0;color:var(--muted);font-size:clamp(16px,2vw,20px)}
+    .pod-choices {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:0 0 24px}
+    .pod-choices button {border:1px solid var(--line);border-radius:8px;background:var(--page);color:var(--ink);text-align:left;padding:10px clamp(7px,2vw,18px);font:650 clamp(13px,2vw,18px)/1.3 system-ui;cursor:pointer}
+    .pod-choices button span {display:block;color:var(--muted);font:600 12px/1.5 system-ui}
+    .pod-choices button[aria-pressed="true"] {border-color:var(--blue);box-shadow:inset 0 0 0 1px var(--blue);background:var(--soft)}
+    .pod-choices button:focus-visible {outline:2px solid var(--blue);outline-offset:2px}
     @media(prefers-color-scheme:dark){:root{--page:#0a1322;--ink:#f4f7fb;--muted:#bdc9da;--line:#43546a;--blue:#81b5ff;--soft:#152338}}
   </style>
-  <script type="module" crossorigin src="/tms-official-web-preview/assets/index-DnDFvlJZ.js"></script>
-  <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/publicPath-04zwLAXF.js">
-  <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/podReviewOrder-DMC6yfcM.js">
-  <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/PodLoops-BTBF1O6i.js">
-  <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/PodLoops-BnvIe6oJ.css">
+  <script type="module" crossorigin src="/tms-official-web-preview/assets/index-Ch02Gc1P.js"></script>
+  <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/createLucideIcon-BfWElLCi.js">
+  <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/PodLoops-nMlUIas_.js">
+  <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/PodLoops-lPvPPTAH.css">
   <meta name="robots" content="noindex,nofollow">
 </head>
 <body>
   <main>
     <header>
       <h1>Choose the POD view</h1>
-      <p>Which view of this delivery should appear on the website?</p>
+      <p>Which handoff should follow the driver’s proof of delivery on Home?</p>
     </header>
     <div id="pod-framing"></div>
   </main>
