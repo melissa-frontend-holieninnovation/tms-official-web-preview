@@ -1,1 +1,0 @@
-import{p as a}from"./publicPath-OlRuuhkG.js";const c="SG-R09-1042",r="Delivery recorded.",p={image:"/images/pod-review/captured-pod.jpg"},e={salesOrderId:c,acceptanceCue:r,proof:p},s=e.salesOrderId,d=e.acceptanceCue,i=e.proof.image;function n(o){return a(o)+"?review=pod-review-flow-4"}export{s as a,d as b,i as c,n as p};
