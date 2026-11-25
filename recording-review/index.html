@@ -21,10 +21,10 @@ h1{font:italic 700 clamp(36px,6vw,66px)/1.05 Magistral,system-ui;margin:32px 0 1
 .framing{margin:24px 0 16px;background:var(--soft);padding:20px;border-radius:12px}
 .framing figcaption{margin:0 auto 14px;text-align:center;font-size:13px;color:var(--muted)}
 .frames{display:grid;grid-template-columns:minmax(0,132px) 24px minmax(0,132px);justify-content:center;gap:8px;align-items:center}
-.frames>i{height:1px;position:relative;background:var(--muted)}.frames>i::after{content:"";position:absolute;right:0;top:-3px;width:6px;height:6px;border:solid var(--muted);border-width:1px 1px 0 0;transform:rotate(45deg)}
+.frame button,.framing button{font:inherit;font-size:13px;min-height:44px;border:1px solid var(--line);color:var(--blue);background:var(--page);border-radius:6px;cursor:pointer}.framing button:disabled{color:var(--muted);cursor:default}.framing footer{text-align:center}.frames>i{height:1px;position:relative;background:var(--muted)}.frames>i::after{content:"";position:absolute;right:0;top:-3px;width:6px;height:6px;border:solid var(--muted);border-width:1px 1px 0 0;transform:rotate(45deg)}
 .frame{aspect-ratio:9/15;border:2px solid var(--ink);border-radius:16px;padding:12px;background:var(--page);display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:7px}
 .frame b{font:italic 700 clamp(17px,3vw,23px)/1 Magistral,system-ui;color:var(--ink);margin-bottom:6px}
-.frame span{display:block;padding-top:7px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;line-height:1.25}
+.framing [hidden]{display:none}.frame span{display:block;padding-top:7px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;line-height:1.25}
 .frame span:last-child{color:var(--blue);font-weight:700}
 @media print{.framing{padding:6px;margin:8px 0}.frames{grid-template-columns:74px 16px 74px}.frame{padding:6px;gap:3px;border-radius:7px}.frame b{font-size:13px;margin:0}.frame span{font-size:8px;padding-top:2px}.framing figcaption{font-size:9px;margin-bottom:4px}}
 </style>
@@ -39,7 +39,8 @@ h1{font:italic 700 clamp(36px,6vw,66px)/1.05 Magistral,system-ui;margin:32px 0 1
 </section>
 <figure class="framing" aria-label="Two-phone framing guide">
 <figcaption>Framing guide · both recordings still needed</figcaption>
-<div class="frames"><div class="frame"><b>Driver app</b><span>SG-R09-1042</span><span>Delivery recorded.</span></div><i aria-hidden="true"></i><div class="frame"><b>Customer app</b><span>Order details</span><span>SG-R09-1042</span><span>Delivered</span></div></div>
+<div class="frames"><div class="frame"><b>Driver app</b><span>SG-R09-1042</span><span id="driver-result">Delivery recorded.</span><button hidden id="submit-proof" type="button">Submit POD</button></div><i aria-hidden="true"></i><div class="frame"><b>Customer app</b><span id="customer-screen">Order details</span><span>SG-R09-1042</span><span id="customer-result">Delivered</span><button hidden id="open-order" type="button">Open order details</button></div></div>
+<footer hidden id="story-controls"><p role="status"></p><button hidden id="replay" type="button">Replay handoff</button></footer>
 </figure>
 <p class="cue"><strong>For the edit</strong> &nbsp;Keep both recordings in portrait. Cut from the driver’s submission confirmation to Order details in the customer app, with Delivered visible. Use the same demo order reference throughout.</p>
 <div class="refs"><a href="https://www.figma.com/proto/vmAA5y9vao7Y9S3L5ZhMcT/Migration?node-id=490-18253&amp;scaling=scale-down">Driver V2 · Capture proof</a><a href="https://www.figma.com/proto/vmAA5y9vao7Y9S3L5ZhMcT/Migration?node-id=490-19236&amp;scaling=scale-down">Driver V2 · Delivery recorded</a><a href="https://melissa-frontend-holieninnovation.github.io/tms-official-web-preview/videos/phone-appvideo.mp4">Watch the website’s current driver-app clip</a></div>
@@ -49,5 +50,5 @@ h1{font:italic 700 clamp(36px,6vw,66px)/1.05 Magistral,system-ui;margin:32px 0 1
 <article><img src="../images/broll/broll-phone-highway-poster.jpg" alt="Current aerial footage of a busy motorway"><div><h3>Travel time</h3><p>For a replacement, film the same white van approaching the second stop and pulling up at the kerb from a fixed roadside position.</p><a href="https://melissa-frontend-holieninnovation.github.io/tms-official-web-preview/videos/broll/broll-phone-highway.mp4">Watch current motorway footage</a></div></article>
 </div></section>
 <footer><a href="../design-review/">Back to the website review</a> &nbsp;·&nbsp; <a href="../design-review/#impact">Compare the Impact options</a><span class="print-link"> &nbsp;·&nbsp; <a href="https://melissa-frontend-holieninnovation.github.io/tms-official-web-preview/recording-review/">Open this recording brief online</a></span></footer>
-</main></body>
+</main><script defer src="./handoff.js"></script></body>
 </html>
