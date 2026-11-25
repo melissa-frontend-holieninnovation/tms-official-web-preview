@@ -18,12 +18,25 @@ h1{font:italic 700 clamp(36px,6vw,66px)/1.05 Magistral,system-ui;margin:32px 0 1
 @media(max-width:650px){.phones,.optional{grid-template-columns:1fr}header{font-size:13px}.phones{gap:10px}.cue{margin-bottom:24px}}
 @page{size:A4;margin:15mm}
 @media print{:root{color-scheme:light;--page:#fff;--ink:#16243a;--muted:#4c5869;--line:#ced5df;--blue:#003df2;--soft:#f3f5f8}body{font-size:12pt}main{max-width:none;padding:0}.phones,.optional{grid-template-columns:1fr 1fr}.phones{gap:12px}.phones article{padding:14px}h1{font-size:34pt}.lead{font-size:14pt}.print-link{display:inline}article{break-inside:avoid}}
+.framing{margin:24px 0 16px;background:var(--soft);padding:20px;border-radius:12px}
+.framing figcaption{margin:0 auto 14px;text-align:center;font-size:13px;color:var(--muted)}
+.frames{display:grid;grid-template-columns:minmax(0,132px) 24px minmax(0,132px);justify-content:center;gap:8px;align-items:center}
+.frames>i{height:1px;position:relative;background:var(--muted)}.frames>i::after{content:"";position:absolute;right:0;top:-3px;width:6px;height:6px;border:solid var(--muted);border-width:1px 1px 0 0;transform:rotate(45deg)}
+.frame{aspect-ratio:9/15;border:2px solid var(--ink);border-radius:16px;padding:12px;background:var(--page);display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:7px}
+.frame b{font:italic 700 clamp(17px,3vw,23px)/1 Magistral,system-ui;color:var(--ink);margin-bottom:6px}
+.frame span{display:block;padding-top:7px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;line-height:1.25}
+.frame span:last-child{color:var(--blue);font-weight:700}
+@media print{.framing{padding:6px;margin:8px 0}.frames{grid-template-columns:74px 16px 74px}.frame{padding:6px;gap:3px;border-radius:7px}.frame b{font-size:13px;margin:0}.frame span{font-size:8px;padding-top:2px}.framing figcaption{font-size:9px;margin-bottom:4px}}
 </style>
 </head>
 <body><main>
 <header><b>SenditGo</b><span>Official website · Recording brief</span></header>
 <h1>One order, two phone screens.</h1>
 <p class="lead">Record one demo delivery from both sides. The driver submits proof of delivery (POD). The customer then opens the shareable tracking link for that order and sees it marked Delivered.</p>
+<figure class="framing" aria-label="Two-phone framing guide">
+<figcaption>Framing guide · both recordings still needed</figcaption>
+<div class="frames"><div class="frame"><b>Driver</b><span>Order reference</span><span>Proof submitted</span></div><i aria-hidden="true"></i><div class="frame"><b>Customer</b><span>Same reference</span><span>Delivered</span></div></div>
+</figure>
 <section class="phones" aria-label="Requested phone recordings">
 <article><p class="step">Recording 1 · Driver phone</p><h2>Submit proof of delivery</h2><p>Open the demo stop in the driver app. Show the order reference, capture the proof requested by the app, and tap submit. Hold on the confirmation so it can be read.</p></article>
 <article><p class="step">Recording 2 · Customer phone</p><h2>See the same order delivered</h2><p>After submission, open that order’s shareable tracking link on a second phone. Keep the matching order reference and the <strong>Delivered</strong> status on screen long enough to read.</p></article>
