@@ -1,0 +1,67 @@
+SenditGo Privacy Policy
+
+Draft for review · 26 November 2026
+
+How SenditGo handles information about drivers, deliveries, website visitors and the people receiving a package.
+
+1. Who this policy is for
+
+This policy describes personal information handled when someone visits the SenditGo website, enquires about the service, uses a fleet or driver account, sends a delivery or receives one. A carrier runs the delivery operation. A shipper supplies a delivery to the carrier. A consignee is the person or business receiving it. The business using SenditGo may also give its customers and workers a privacy notice about its own activities.
+
+2. Information we handle
+
+A delivery record may include a name, contact details, collection or delivery address, order and package references, delivery instructions, requested time window, status and proof. Driver records may include account and work assignment details, the device’s location during a delivery, and timestamps. A website enquiry can include the contact details and information you choose to provide.
+
+3. Where information comes from
+
+A shipper, carrier or authorised integration can provide delivery details before we have contact with the recipient. Drivers and dispatchers record actions as work proceeds. The driver’s device can supply location and event times. You may also give us information directly when you sign in, sign for a package, contact support or ask us to correct a record. If essential contact or address information is missing, an operator may be unable to arrange delivery or resolve an enquiry.
+
+4. How the information is used
+
+Information supports order and route planning, assigning work, navigating to stops, showing eligible tracking updates and recording delivery outcomes. Authorised teams can use relevant records to answer enquiries, investigate discrepancies and review delivery performance. Some operational records may be needed for a lawful safety investigation or disclosure. A route, planned arrival or ETA is an estimate that can change.
+
+5. Website preferences and analytics
+
+The website stores theme and cookie preferences in your browser. These choices can be cleared through your browser settings. Where optional website analytics are offered, the choice is presented on the site. Loading the public site can contact a web-font provider. Opening a map contacts the mapping provider to display the area requested. These providers receive network information such as the IP address needed to return the content. Avoid entering tracking numbers, contact details or delivery instructions into marketing enquiry fields unless they are needed to resolve your request.
+
+6. Driver GPS and location
+
+During delivery work, location can be used for navigation, operational tracking and investigation of delivery events. Depending on the driver app, device permissions and active work state, collection can continue while another app is visible. Drivers can review the device’s location permissions. Removing permission may prevent navigation or location-based tracking from working. Fleet managers should explain location use to their drivers, including any workplace monitoring that applies to their operation.
+
+7. Who can track a delivery
+
+A shipper uses their account to see deliveries they have sent. A consignee uses the website to see deliveries they are receiving. A guest can look up one delivery by its tracking number. Recipient vehicle visibility is limited to an eligible next stop and the relevant delivery leg. A recipient’s view excludes other customers’ stops and the rest of the run. Website demonstrations use synthetic delivery records and simulated movement.
+
+8. Photographs, signatures and delivery evidence
+
+When the workflow calls for proof, the driver may record an electronic signature, a package photograph, a scan, a timestamp, a delivery outcome or a reason for a delivery exception. The evidence links to the relevant delivery. For unattended delivery, the driver should follow the carrier’s instructions and limit photos to necessary evidence. Contact the carrier or our support team to dispute an entry. A proof record can help investigate an incident alongside other evidence.
+
+9. Who may receive information
+
+A carrier, authorised dispatcher or driver may receive the information needed for the delivery. A shipper or consignee may receive information about their own shipment, subject to their access. Service providers can process information needed to operate functions such as mapping, authentication, hosting or messaging. Google services support website map display and mobile navigation, and Fleet Web uses Mapbox in parts of its dispatch interface. A customer may authorise an integration to exchange order information. Information may also be disclosed when required or authorised by law.
+
+10. Overseas processing and access
+
+Depending on the operator and the services used, providers or support personnel may handle information outside Australia. Contact us if you need information about an arrangement affecting your delivery. Before publication we will identify likely overseas recipients and, where practicable, their countries in this section.
+
+11. Security, storage and retention
+
+Operational records are accessed through account, role and delivery controls. The information needed for a delivery, investigation or legal hold can differ from the information needed to answer a website enquiry. Retention and disposal decisions should take account of the purpose, legal obligations and outstanding disputes. Ask us about records connected with a particular delivery. If an incident may affect you, the responsible organisation will assess it and provide notification when legally required.
+
+12. Access and correction
+
+You can ask what personal information we hold about you, request access or ask for a correction. Tell us enough to locate the record, such as the tracking reference and the information you believe is inaccurate. We may need to verify identity or authority, or work with the carrier responsible for a record. If a request cannot be fulfilled, we will explain the reason and available complaint options where required.
+
+13. Questions and complaints
+
+Email our general support team with a description of your concern and how you would like us to respond. We can ask for further information through an appropriate channel. Contact the organisation involved first. Where the Australian privacy complaints process applies, you may take the matter to the Office of the Australian Information Commissioner if you are dissatisfied with the response or have had no response after 30 days.
+
+https://www.oaic.gov.au/privacy/privacy-complaints/lodge-a-privacy-complaint-with-us
+
+14. Changes to this policy
+
+Changes to information handling may require a policy update or a separate notice when new information is collected. The approved version will be dated so you can see when it applies.
+
+15. Contact
+
+Use info@holieninnovation.com.tw for SenditGo support and privacy enquiries. Include the minimum details needed to identify the issue. Ask for a secure way to provide a proof photograph or an identity document before sending it.
