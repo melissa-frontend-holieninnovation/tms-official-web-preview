@@ -1,7 +1,7 @@
 {
-  "name": "Sendit Go — Transportation Management System",
-  "short_name": "Sendit Go",
-  "description": "Sendit Go is intelligent transport management for local and last-mile fleets, launching 2027.",
+  "name": "SenditGo — Transportation Management System",
+  "short_name": "SenditGo",
+  "description": "SenditGo is intelligent transport management for local and last-mile fleets, launching 2027.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
