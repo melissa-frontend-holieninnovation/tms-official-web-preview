@@ -20,7 +20,7 @@ import{R as fe,r as m,p as de,j as o,c as De,C as mu}from"./client-BJSWU-2m.js";
     --v29-eyebrow-text: #3399FF;
     --v29-accent-art: ${Ve};
     --v29-accent-text: var(--v29-accent-art);
-    --v29-accent-display: var(--v29-accent-art);
+    --v29-accent-display: #F5A93B;
     --v29-primary-hover: #003DF2;
     --v29-on-primary: #FFFFFF;
     --v29-page: #071120;
@@ -58,6 +58,7 @@ import{R as fe,r as m,p as de,j as o,c as De,C as mu}from"./client-BJSWU-2m.js";
     --v29-primary: #007FFF;
     --v29-eyebrow-text: #003DF2;
     --v29-accent-text: var(--v29-navy);
+    --v29-accent-display: var(--v29-accent-art);
     --v29-primary-hover: #003DF2;
     --v29-on-primary: #FFFFFF;
     --v29-page: #FFFFFF;
@@ -259,10 +260,6 @@ Please change the parent <Route path="${x}"> to <Route path="${x==="/"?"*":`${x}
   color: var(--v29-text);
   margin: 0;
   max-width: 18ch;
-  [data-theme='light'] & .accent {
-    -webkit-text-stroke: 1px var(--v29-navy);
-    paint-order: stroke fill;
-  }
   .accent {
     color: var(--v29-accent-display);
   }
@@ -1259,10 +1256,6 @@ Please change the parent <Route path="${x}"> to <Route path="${x==="/"?"*":`${x}
     margin: 0 0 16px;
     color: var(--v29-text);
     text-wrap: balance;
-  }
-  [data-theme='light'] & .accent {
-    -webkit-text-stroke: 1px var(--v29-navy);
-    paint-order: stroke fill;
   }
   .accent {
     font-style: italic;
