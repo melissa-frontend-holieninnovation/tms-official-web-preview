@@ -1,4 +1,4 @@
-import{J as t}from"./FleetImpact-BQ1idsUg.js";import{bf as e,bd as o}from"./CarrierProvider-CpE_XQGk.js";const l=t.div`
+import{J as t}from"./FleetImpact-BnE9hibi.js";import{bf as e,bd as o}from"./CarrierProvider-DjkDP_hA.js";const l=t.div`
   overflow-x: auto;
 `,d=t.table`
   width: 100%;
