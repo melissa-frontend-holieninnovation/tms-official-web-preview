@@ -11,26 +11,14 @@
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <meta name="theme-color" content="#007FFF" />
-    <!-- Theme boot: stamp data-theme before first paint so prerendered HTML
-         (which bakes whatever headless Chrome resolved) never flashes the
-         wrong theme. Mirrors ThemeContext's key + legacy migration order. -->
-    <script>
-      (function () {
-        try {
-          var theme =
-            localStorage.getItem('theme') ||
-            localStorage.getItem('senditgo-v29-theme');
-          if (theme !== 'light' && theme !== 'dark') {
-            theme = window.matchMedia('(prefers-color-scheme: dark)').matches
-              ? 'dark'
-              : 'light';
-          }
-          document.documentElement.setAttribute('data-theme', theme);
-        } catch (e) {
-          /* storage unavailable — ThemeContext stamps it on hydration */
-        }
-      })();
-    </script>
+    <script>document.documentElement.dataset.theme = (function readInitialMode() {
+  try {
+    const saved = localStorage.getItem("theme") ?? localStorage.getItem("senditgo-v29-theme");
+    if (saved === "light" || saved === "dark") return saved;
+  } catch {
+  }
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+})();</script>
     <!-- Fallback title; per route, react-helmet-async (src/App.tsx RouteSeo)
          sets a unique title/description/canonical + og:title/description/url +
          twitter:title/description, baked per route by scripts/prerender.mjs.
@@ -136,11 +124,11 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/tms-official-web-preview/assets/index-C02GqGZC.js"></script>
+    <script type="module" crossorigin src="/tms-official-web-preview/assets/index-DQWgqfjp.js"></script>
     <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/client-BJSWU-2m.js">
-    <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/FleetImpact-bAofGP5A.js">
+    <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/FleetImpact-BU3E7emM.js">
     <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/check-CUhVZmZQ.js">
-    <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/FleetImpact-Da_EZdJJ.css">
+    <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/FleetImpact-DwSkE1ot.css">
     <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/index-BU_go55w.css">
     <meta name="robots" content="noindex,nofollow">
   </head>
