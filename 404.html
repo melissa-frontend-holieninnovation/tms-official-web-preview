@@ -124,15 +124,59 @@
         ]
       }
     </script>
-    <script type="module" crossorigin src="/tms-official-web-preview/assets/index-BsIxL7Ju.js"></script>
+    <script type="module" crossorigin src="/tms-official-web-preview/assets/index-qKSBWFDb.js"></script>
     <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/client-BJSWU-2m.js">
-    <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/FleetImpact-BV-ETV7C.js">
+    <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/FleetImpact-D4WxNlzz.js">
     <link rel="modulepreload" crossorigin href="/tms-official-web-preview/assets/check-CUhVZmZQ.js">
-    <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/FleetImpact-4GrzSjd3.css">
+    <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/FleetImpact-CBt2BM39.css">
     <link rel="stylesheet" crossorigin href="/tms-official-web-preview/assets/index-BU_go55w.css">
     <meta name="robots" content="noindex,nofollow">
   </head>
   <body>
     <div id="root"></div>
+    <script data-base="/tms-official-web-preview/">(function warmOpeningFilm(base, sources, create, saveData) {
+  const path2 = location.pathname;
+  if (path2 !== base && path2 !== base + "index.html") return;
+  const start = () => {
+    if (window.senditgoOpeningFilm !== void 0 || location.hash || document.hidden || scrollY > 0 || matchMedia("(prefers-reduced-motion: reduce)").matches || saveData()) return;
+    const video = document.querySelector("video[data-opening-film]") ?? create(base, sources);
+    video.preload = "auto";
+    window.senditgoOpeningFilm = video;
+    if (video.isConnected && video.getBoundingClientRect().bottom > 0) {
+      void video.play().then(() => {
+        if (video.requestVideoFrameCallback) {
+          video.requestVideoFrameCallback(() => {
+            video.dataset.frameReady = "";
+          });
+        } else video.dataset.frameReady = "";
+      }).catch(() => {
+      });
+    }
+  };
+  const sheet = document.querySelector('link[rel="stylesheet"]');
+  if (sheet && !sheet.sheet) {
+    sheet.addEventListener("load", start, { once: true });
+    sheet.addEventListener("error", start, { once: true });
+  } else start();
+})(document.currentScript.dataset.base,[{"media":"(max-width: 600px) and (max-aspect-ratio: 3/4)","file":"videos/broll/broll-hero-melbourne-dusk-portrait.mp4"},{"file":"videos/broll/broll-hero-melbourne-dusk.mp4?v=native2"}],function createFilmPlayer(base, sources) {
+  const video = document.createElement("video");
+  video.preload = "none";
+  video.defaultMuted = true;
+  video.muted = true;
+  video.playsInline = true;
+  video.loop = true;
+  video.setAttribute("aria-hidden", "true");
+  video.setAttribute("data-page-video", "");
+  for (const { file, media } of sources) {
+    const source = document.createElement("source");
+    source.type = "video/mp4";
+    if (media) source.media = media;
+    source.src = base + file;
+    video.appendChild(source);
+  }
+  return video;
+},function saveFilmData() {
+  return Boolean(navigator.connection?.saveData);
+});</script>
   </body>
 </html>
