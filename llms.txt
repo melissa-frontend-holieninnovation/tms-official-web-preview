@@ -16,7 +16,8 @@ delivery stays live in one clear view.
 ## Company & policies
 - [Contact](https://www.senditgo.com/contact): Contact SenditGo — book a product demo, ask about plans and pricing, integrations, or finding the right solution.
 - [Data safety](https://www.senditgo.com/data-safety): How SenditGo handles operational and location data.
-- [Privacy policy](https://www.senditgo.com/privacy): Privacy practices.
+- [Website Privacy Policy](https://www.senditgo.com/privacy-policy): Website visitors, enquiries and expressions of interest.
+- [Driver app privacy policy](https://www.senditgo.com/privacy): Driver app and delivery services.
 - [Account deletion](https://www.senditgo.com/account-deletion): How to delete an account and associated data.
 
 ## Notes

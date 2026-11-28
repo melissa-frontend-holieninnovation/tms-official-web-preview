@@ -1,4 +1,4 @@
-import{j as a}from"./client-CG7M8TvS.js";import{bv as l}from"./CarrierProvider-B3e0Qsan.js";import{X as x,J as o,U as d,ab as c,u as m,S as h,_ as g}from"./FleetImpact-C_ObIj_o.js";import{u as v,a as u,l as f,m as b,S as w,C as y}from"./index-BZ-2ws7v.js";const j=o.nav`
+import{j as a}from"./client-CG7M8TvS.js";import{bv as l}from"./CarrierProvider-DI5BnCuL.js";import{X as x,J as o,U as d,ac as c,u as m,S as h,$ as g}from"./FleetImpact-CqoBoVCC.js";import{u as v,a as u,l as f,m as w,S as b,C as y}from"./index-DcY9VUCH.js";const j=o.nav`
   position: sticky;
   top: 92px;
   align-self: start;
@@ -135,4 +135,4 @@ import{j as a}from"./client-CG7M8TvS.js";import{bv as l}from"./CarrierProvider-B
   }
 `,I=o.div`
   min-width: 0;
-`,F=({children:e,publicChrome:r=!1})=>{const p=b(),{mode:s,toggleTheme:n}=m(),t=p&&!r;return a.jsxs(a.Fragment,{children:[a.jsx(h,{}),a.jsx(l,{mode:s,children:a.jsxs(g,{children:[a.jsx(w,{theme:s,onToggleTheme:n}),a.jsx(P,{$authenticated:t,children:t?a.jsx(C,{children:a.jsxs(G,{children:[a.jsx(A,{}),a.jsx(I,{children:e})]})}):e}),a.jsx(y,{})]})})]})};export{F as P};
+`,F=({children:e,publicChrome:r=!1})=>{const p=w(),{mode:s,toggleTheme:n}=m(),t=p&&!r;return a.jsxs(a.Fragment,{children:[a.jsx(h,{}),a.jsx(l,{mode:s,children:a.jsxs(g,{children:[a.jsx(b,{theme:s,onToggleTheme:n}),a.jsx(P,{$authenticated:t,children:t?a.jsx(C,{children:a.jsxs(G,{children:[a.jsx(A,{}),a.jsx(I,{children:e})]})}):e}),a.jsx(y,{})]})})]})};export{F as P};
